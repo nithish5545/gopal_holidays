@@ -9,11 +9,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "change-me-in-production")
 
 # --- Database ---
 DB_CONFIG = {
-    "host":     os.environ.get("DB_HOST",     "localhost"),
-    "port":     int(os.environ.get("DB_PORT", "3306")),
-    "user":     os.environ.get("DB_USER",     "root"),
-    "password": os.environ.get("DB_PASSWORD", ""),
-    "database": os.environ.get("DB_NAME",     "tour_booking"),
+    "host":     os.environ.get("DB_HOST",     "3rgacs.h.filess.io"),
+    "port":     int(os.environ.get("DB_PORT", "61001")),
+    "user":     os.environ.get("DB_USER",     "tour_planner_structure"),
+    "password": os.environ.get("DB_PASSWORD", "311dfe5048531cdd1260b94b80c3a2781de2bb62"),
+    "database": os.environ.get("DB_NAME",     "tour_planner_structure"),
     "charset":  "utf8mb4",
 }
 
